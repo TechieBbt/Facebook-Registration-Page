@@ -1,0 +1,78 @@
+/* h2{color:blue} */
+img {
+    height: 40px;
+    width: 120px;
+}
+#phone {
+    padding: 1%;
+    /* height: 40px; */
+    background-color: rgb(248, 247, 247);
+    border: none;
+}
+::placeholder {
+    font-size: 110%;
+}
+#password {
+    padding: 1%;
+    background-color: rgb(248, 247, 247);
+    border: none;
+}
+.login {
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    font-size:medium;
+    color: #fff;
+    background-color: #1877f2;
+    display: block;
+    width: 30%;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
+.link {
+    color: #216fdb;
+    font-family: 'Roboto-Regular', 'Helvetica', 'sans-serif';
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.line:before,
+.line:after {
+  background-color: rgb(192, 190, 190);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 13%;
+}
+
+.line:before {
+  right: 0.1em;
+  margin-left: -5%;
+}
+
+.line:after {
+  left: 0.1em;
+  margin-right: -5%;
+}
+
+.create {
+    font-size: 17px;
+    height: 40px;
+    line-height: 40px;
+    font-size:medium;
+    color: #fff;
+    background-color: green;
+    display: block;
+    width: 14.3%;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+}
